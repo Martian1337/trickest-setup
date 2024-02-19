@@ -5,7 +5,7 @@
 
 # Update and upgrade the system's packages
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y ufw sudo rsyslog
+sudo apt install -y curl ufw sudo rsyslog
 
 # Allow traffic on port 3000/tcp for Trickest Agent
 sudo ufw allow 3000/tcp
