@@ -31,6 +31,7 @@ rm -f init.sh
 
 # Start service at boot
 sudo systemctl enable trickest-agent.service
+rm -f setup.sh
 
 # Reboot immediately prompt
 read -p "Setup is complete. Do you want to reboot now? (y/n) " answer
